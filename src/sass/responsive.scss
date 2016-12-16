@@ -71,11 +71,11 @@
 			display: flex;
 			display: -webkit-flex;
 			-webkit-justify-content: space-between;
-    		justify-content: space-around;
+    		justify-content: space-between;
     		align-items: center;
     		-webkit-align-items: center;
     		border-bottom: 2px solid #d5d5d5;
-    		padding: 10px 0;
+    		padding: 10px 20px;
     		.burger{
     				display: block;
     			 cursor: pointer;
@@ -148,12 +148,12 @@
     		display: -webkit-flex;
     		display: flex;
     		/* -webkit-box-pack: justify;
- */    		-webkit-justify-content: space-around;
-    		justify-content: space-around;
+ */    		-webkit-justify-content: space-between;
+    		justify-content: space-between;
     		-webkit-align-items: flex-end;
     		align-items: flex-end;
     		border-bottom: 2px solid #d5d5d5;
-    		padding: 10px 10px 20px;
+    		padding: 10px 30px 20px;
 		}
 		.application {
 		    display: none;
@@ -259,7 +259,7 @@
 	}
 
 	.mobile-menu-logo{
-  		 margin: 10px 0 0 34px;
+  		 margin: 10px 0 0 18px;
   	}
 	.tree__link--mobile{
 		position: relative;
