@@ -58,6 +58,11 @@ html, body{
 	align-items: center;
 	flex-wrap: wrap;
 }
+.logo{
+	&__img-mobile{
+		display: none;
+	}
+}
 .mobile-menu{
 	display: none ;
 }

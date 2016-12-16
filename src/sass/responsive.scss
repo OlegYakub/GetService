@@ -5,7 +5,7 @@
 		z-index: 1;
 		width: 100%;
 		top:0;
-		padding-bottom: 40px;
+		padding-bottom: 125px;
 		.holder-mobile-menu{
 			padding: 50px 20px 0 20px;
 		}
@@ -60,7 +60,7 @@
 		z-index: 2;
 	}
 	.container{
-		max-width:  414px ;
+		max-width:  320px ;
 	}
 	.header-top{
 		padding: 0 !important;
@@ -76,6 +76,12 @@
     		-webkit-align-items: center;
     		border-bottom: 2px solid #d5d5d5;
     		padding: 10px 20px;
+    		&__img-mobile{
+    			display: block;
+    		}
+    		&__img-desktop{
+    			display: none;
+    		}
     		.burger{
     				display: block;
     			 cursor: pointer;
